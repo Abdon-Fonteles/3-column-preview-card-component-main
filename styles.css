@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --background-headings-buttons: hsl(0, 0%, 95%);
+}
+
+body {
+    background-color: var(--background-headings-buttons);
+    color: var(--paragraphs);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 170px auto;
+    max-width: 920px;
+    max-height: 500px;
+}
+
+#column1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: var(--Bright-orange);
+    padding: 50px;
+}
+
+#column2 {
+    background: var(--Dark-cyan);
+    padding: 48px;
+}
+
+#column3 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--Very-dark-cyan);
+    padding: 48px;
+}
+
+.box-text h1 {
+    color: var(--background-headings-buttons);
+    font-family: 'Big Shoulders Display', sans-serif;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.box-text p {
+    padding-bottom: 5rem;
+}
+
+a {
+    padding: 13px 19px;
+    border-radius: 50px;
+    background-color: var(--background-headings-buttons);
+    text-decoration: none;
+    
+}
+
+#column1 a {
+    color: var(--Bright-orange);
+}
+
+#column2 a {
+    color: var(--Dark-cyan);
+}
+
+#column3 a {
+    color: var(--Very-dark-cyan);
+}
+
+#column1 a:hover {
+    color: var(--background-headings-buttons);
+    background: none;
+    border: 3px solid var(--background-headings-buttons);
+    padding: 10px 16px;
+}
+
+#column2 a:hover {
+    color: var(--background-headings-buttons);
+    background: none;
+    border: 3px solid var(--background-headings-buttons);
+    padding: 10px 16px;
+}
+
+#column3 a:hover {
+    color: var(--background-headings-buttons);
+    background: none;
+    border: 3px solid var(--background-headings-buttons);
+    padding: 10px 16px;
+}
